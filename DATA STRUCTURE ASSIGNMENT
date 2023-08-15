@@ -1,0 +1,260 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "15a9dc42-d245-4110-a6f3-3fd540b34e38",
+   "metadata": {},
+   "source": [
+    "Q1. How do you comment code in Python? What are the different types of comments?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "21246e7f-716b-43e2-8591-bca53e03b86c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Ans-In Python, you can add comments to your code using the # symbol. Anything following the # on the same line is considered a comment and is ignored by the Python interpreter. There is only one type of single-line comment in Python.\n",
+    "Example:\n",
+    "# This is a single-line comment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "48be357f-4c20-423a-882c-fa06d755a980",
+   "metadata": {},
+   "source": [
+    "Q2. What are variables in Python? How do you declare and assign values to variables?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "746d4dc4-cdb2-41c2-88c9-6a3d296eef11",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Ans-Variables in Python are used to store data values. They act as placeholders for various types of data. To declare and assign a value to a variable, you simply use the variable name followed by the assignment operator = and the value you want to assign.\n",
+    "\n",
+    "Example:\n",
+    "x = 10  # Here, x is a variable with the value 10"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fd940923-83b1-412f-8d6c-906af1ec4b7e",
+   "metadata": {},
+   "source": [
+    "Q3. How do you convert one data type to another in Python?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c07da57a-4f2d-472f-a18f-7748c383a822",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Ans-You can use type conversion functions to convert one data type to another. For example:\n",
+    "\n",
+    "int(): Converts to integer\n",
+    "float(): Converts to float\n",
+    "str(): Converts to string\n",
+    "Example:\n",
+    "x = 10\n",
+    "x_str = str(x)  # Converts integer to string"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5b3bbcfa-a889-493d-a997-e59c91704ffb",
+   "metadata": {},
+   "source": [
+    "Q4. How do you write and execute a Python script from the command line?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1132f093-2e35-4f9b-b2e1-7a3756e27d05",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Ans-To write and execute a Python script from the command line:\n",
+    "\n",
+    "Open a text editor and write your Python code.\n",
+    "Save the file with a .py extension (e.g., myscript.py).\n",
+    "Open a command prompt or terminal.\n",
+    "Navigate to the directory where the script is saved.\n",
+    "Run the script using the command python script_name.py."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e630aa2f-1141-46e3-8861-31d67530c456",
+   "metadata": {},
+   "source": [
+    "Q5. Given a list my_list = [1, 2, 3, 4, 5], write the code to slice the list and obtain the sub-list [2, 3]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e4d2796-f4cb-490f-be6e-71d55b851701",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "my_list = [1, 2, 3, 4, 5]\n",
+    "sub_list = my_list[1:3]  # Slicing from index 1 (inclusive) to 3 (exclusive)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "10c719b9-04e5-47e5-9fbf-0266fb4b01a5",
+   "metadata": {},
+   "source": [
+    "Q6. What is a complex number in mathematics, and how is it represented in Python?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5c0573dc-3348-4d16-a79a-dbb584c65a9d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Ans-A complex number is a number that comprises both a real part and an imaginary part. In Python, complex numbers are represented using the j or J suffix for the imaginary part.\n",
+    "\n",
+    "Example:\n",
+    "z = 3 + 2j  # 3 is the real part, 2j is the imaginary part"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "572b1852-3823-4f24-abfe-1381b6086251",
+   "metadata": {},
+   "source": [
+    "Q7. What is the correct way to declare a variable named age and assign the value 25 to it?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "d07aeaaa-3a71-406d-862d-1a2a7b5a4009",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = 25"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "be11dcb3-4f11-4aba-9523-a1874216b325",
+   "metadata": {},
+   "source": [
+    "Q8. Declare a variable named price and assign the value 9.99 to it. What data type does this variable\n",
+    "belong to?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8047e120-889b-4c20-ad4f-d1ff757cfdc2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "price = 9.99\n",
+    "# The variable \"price\" belongs to the float data type"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d893f59-868c-4e58-b0d8-33dd29c017bf",
+   "metadata": {},
+   "source": [
+    "Q9. Create a variable named name and assign your full name to it as a string. How would you print the\n",
+    "value of this variable?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "823f98a3-dff1-44e1-852d-3383d6b0274a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"Your Full Name\"\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "627751b0-ec9e-4a46-82df-487fdccade55",
+   "metadata": {},
+   "source": [
+    "Q10. Given the string \"Hello, World!\", extract the substring \"World\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "924e43e2-81f5-4b2d-b2f5-311411483541",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "World\n"
+     ]
+    }
+   ],
+   "source": [
+    "text = \"Hello, World!\"\n",
+    "substring = text[7:12]\n",
+    "print(substring)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "455a6b11-d3da-484e-a158-cecee1ad753b",
+   "metadata": {},
+   "source": [
+    "Q11. Create a variable named \"is_student\" and assign it a boolean value indicating whether you are\n",
+    "currently a student or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5ea9bb57-8f0b-429f-8dca-0eb05504f423",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "is_student = True  # or False, depending on whether you are a student or not"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-panel-2023.05-py310",
+   "language": "python",
+   "name": "conda-env-anaconda-panel-2023.05-py310-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
